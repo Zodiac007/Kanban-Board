@@ -64,7 +64,7 @@ export default function Sidebar() {
   const [open, setOpen] = useState(true);
   return (
     <div
-      className={`bg-white border border-gray-200 duration-300 h-screen sticky top-0 ${
+      className={`bg-white border border-gray-200 duration-300 h-screen sticky top-0 overflow-y-auto sidebar ${
         open ? "w-80" : "w-20"
       } relative`}
     >

@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.columClass {
+.columClass,
+.sidebar {
   overflow-y: scroll;
   -ms-overflow-style: none; /* for IE */
   scrollbar-width: none; /* for firefox */
 }
 
-.columClass::-webkit-scrollbar {
+.columClass::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar {
   display: none; /* for chrome, safari, opera */
 }
 

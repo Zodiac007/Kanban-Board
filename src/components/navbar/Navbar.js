@@ -7,8 +7,8 @@ import DropDown from "../common/icons/DropDown";
 export default function Navbar() {
   return (
     <>
-      <div className="bg-white flex justify-between items-center border-b w-auto border-gray-200 py-5 px-28">
-        <div className="flex items-center p-2 w-1/5 bg-gray-100 rounded-lg">
+      <div className="bg-white flex justify-between items-center border-b w-auto border-gray-200 py-5 px-4 xl:px-28">
+        <div className="flex items-center p-2 bg-gray-100 rounded-lg">
           <div className="mx-2">
             <Search />
           </div>
